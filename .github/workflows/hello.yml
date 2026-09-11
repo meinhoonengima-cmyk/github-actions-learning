@@ -7,4 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v7
+
       - run: echo "Hello from GitHub Actions!"
+      - run: ls
